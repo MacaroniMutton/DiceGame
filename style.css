@@ -50,13 +50,12 @@ h1 {
     /* gap: 20%; */
 }
 
-@media (max-width: 450px) {
-    .game > .player1,.game > .player2 {
-        min-width: none;
-        width: 90%;
+@media (max-width: 500px) {
+    .player1, .player2 {
+        min-width: 250px;
+        width: 80%;
     }
 }
-
 
 .name {
     border-top-left-radius: 24px;
